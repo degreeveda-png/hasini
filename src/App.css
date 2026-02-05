@@ -1,0 +1,101 @@
+body{
+  margin:0;
+  font-family: Arial, sans-serif;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  font-family:Arial;
+  font-size: large;
+  color: rgb(255, 238, 0);
+
+  
+}
+
+.nav ul{
+  display: flex;
+  list-style: none;
+  gap:20px;
+  
+}
+
+.nav a{
+  color: lightblue;
+  text-decoration: none;
+}
+
+.start{
+  text-align: center;
+  padding: 20px 20px;
+  font-size: 25px;
+  
+}
+
+.start h1{
+ color:rgb(193, 207, 67);
+ font-size:70px;
+
+}
+
+.start button{
+  padding:20px 20px;
+  border: none;
+  cursor:pointer;
+  margin-top: 10px;
+  background-color: red;
+}
+
+.section{
+  padding: 5px 20px;
+  text-align: center;
+  font-size: 18px;
+  
+}
+
+.menu-items2{
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  padding: 5px 30px;
+}
+
+
+.menu-items{
+  display: flex;
+  justify-content: center;
+  gap:120px;
+  
+  padding: 5px 30px;
+}
+
+.card{
+  padding: 20px;
+  border: 1px solid #ddd;
+  width:200px;
+
+  }
+
+.footer{
+  
+  color:rgb(193, 207, 67);
+  text-align: center;
+  padding: 20px;
+}
+
+
+#menu h2{
+color: yellow;
+}
+
+
+#about h2{
+  color:yellow;
+}
+
+
+#contact h2{
+  color:yellow;
+}
+
